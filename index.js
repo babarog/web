@@ -9,6 +9,7 @@ const port = process.env.PORT || 3000;
 
 app.set('view engine', 'hbs');
 app.use(express.static(path.join(__dirname, 'assets')));
+
 app.set('view options', { layout: 'layout' });
 hbs.registerPartials(path.join(__dirname, '/views/partials'));
 

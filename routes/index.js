@@ -1,4 +1,8 @@
 module.exports = {
   home: '/',
-  matija: '/matija',
+  detailing: '/detailing',
+  kemijsko: '/kemijsko',
+  gallery: '/gallery',
+  cjenik: '/cjenik',
+  about: '/about'
 };

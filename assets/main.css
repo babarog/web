@@ -23,3 +23,7 @@
     grid-area: content;
     height: 600px;    
 }
+
+.paragraph {
+    color: red;
+}
