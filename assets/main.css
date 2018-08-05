@@ -1,6 +1,6 @@
 body{
-    background-image: url('http://www.guoguiyan.com/data/out/20/69025654-big-wallpapers.png');
-}
+   /* background-image: url('http://www.guoguiyan.com/data/out/20/69025654-big-wallpapers.png');
+*/ background-color: white}
 
 
 .layout {
@@ -11,8 +11,7 @@ body{
     display: grid;
     grid-gap: 10px;
     grid-template-areas: 'main main main main'
-       /* 'linkovi'
- */        'sidenav content content content'
+        'sidenav content content content'
     ;
 }
 
@@ -37,8 +36,38 @@ body{
 .paragraph {
     color: red;
 }
+
 .jedinstveno {
-    border-right: solid 1px blue;
+    border: solid 1px blue;
     grid-area: sidenav;
     width: 90%;
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #ff0000;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #7c6e6e;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: rgb(31, 74, 218);
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: rgb(251, 255, 0);
+    color: white;
 }
