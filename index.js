@@ -19,8 +19,24 @@ app.get(routes.home, (req, res) => {
   res.render('home', globalVars);
 });
 
-app.get(routes.matija, (req, res) => {
-  res.render('matija', { ...globalVars, name: 'Matija' });
+app.get(routes.detailing, (req, res) => {
+  res.render('detailing', { ...globalVars, name: 'Detailing' });
+});
+
+app.get(routes.kemijsko, (req, res) => {
+  res.render('kemijsko', { ...globalVars, name: 'Kemijsko čišćenje' });
+});
+
+app.get(routes.gallery, (req, res) => {
+  res.render('gallery', { ...globalVars, name: 'Galerija radova' });
+});
+
+app.get(routes.cjenik, (req, res) => {
+  res.render('cjenik', { ...globalVars, name: 'Cjenik' });
+});
+
+app.get(routes.about, (req, res) => {
+  res.render('about', { ...globalVars, name: 'O nama' });
 });
 
 app.listen(3000, () => {

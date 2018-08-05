@@ -11,8 +11,8 @@ body{
     display: grid;
     grid-gap: 10px;
     grid-template-areas: 'main main main main'
-        'linkovi'
-        'sidenav content content content'
+       /* 'linkovi'
+ */        'sidenav content content content'
     ;
 }
 
@@ -33,14 +33,12 @@ body{
     grid-area: content;
     height: 600px;    
 }
-<<<<<<< HEAD
 
 .paragraph {
     color: red;
-=======
+}
 .jedinstveno {
     border-right: solid 1px blue;
     grid-area: sidenav;
     width: 90%;
->>>>>>> de7590495ec89c3b55cee758658692dcb3285af1
 }
