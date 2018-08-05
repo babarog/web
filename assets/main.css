@@ -1,7 +1,17 @@
+body{
+    background-image: url('http://www.guoguiyan.com/data/out/20/69025654-big-wallpapers.png');
+}
+
+
 .layout {
+    width: 80%;
+    min-width: 512px;
+    max-width: 1024px;
+    margin: 0 auto;
     display: grid;
     grid-gap: 10px;
     grid-template-areas: 'main main main main'
+        'linkovi'
         'sidenav content content content'
     ;
 }
@@ -23,7 +33,14 @@
     grid-area: content;
     height: 600px;    
 }
+<<<<<<< HEAD
 
 .paragraph {
     color: red;
+=======
+.jedinstveno {
+    border-right: solid 1px blue;
+    grid-area: sidenav;
+    width: 90%;
+>>>>>>> de7590495ec89c3b55cee758658692dcb3285af1
 }
