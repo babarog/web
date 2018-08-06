@@ -39,6 +39,6 @@ app.get(routes.about, (req, res) => {
   res.render('about', { ...globalVars, name: 'O nama' });
 });
 
-app.listen(3000, () => {
+app.listen(port, () => {
   console.log(`Server is running on ${port}`);
 });
