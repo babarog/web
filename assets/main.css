@@ -1,36 +1,29 @@
+@import url('about.css');
+
+@font-face {
+    font-family: 'mojfont';
+    src: url('mojfont.ttf')  format('truetype')
+  }
+
 body{
    /* background-image: url('http://www.guoguiyan.com/data/out/20/69025654-big-wallpapers.png');
-*/ background-color: white}
+*/  background-color: white;
+    font-family: mojfont;
+
+}
 
 
 .layout {
     width: 80%;
     min-width: 512px;
-    max-width: 1024px;
+    max-width: 1920px;
     margin: 0 auto;
     display: grid;
-    grid-gap: 10px;
-    grid-template-areas: 'main main main main'
-        'sidenav content content content'
-    ;
 }
 
 .main-nav {
     background-color: red;
     height: 100px;
-    grid-area: main;
-}
-
-.side-nav {
-    border-right: solid 1px blue;
-    grid-area: sidenav;
-    width: 100px;
-    height: 600px;
-}
-
-.content {
-    grid-area: content;
-    height: 600px;    
 }
 
 .paragraph {
@@ -39,25 +32,32 @@ body{
 
 .jedinstveno {
     border: solid 1px blue;
-    grid-area: sidenav;
+    grid-area: nav;
     width: 90%;
 }
 
 
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #ff0000;
+    background-color: rgb(209, 156, 156);
     overflow: hidden;
+    list-style: none;
+
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 8px 0;
+
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-    float: left;
-    color: #7c6e6e;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    color: white;
 }
 
 /* Change the color of links on hover */
@@ -67,6 +67,7 @@ body{
 }
 
 /* Add a color to the active/current link */
+
 .topnav a.active {
     background-color: rgb(251, 255, 0);
     color: white;
