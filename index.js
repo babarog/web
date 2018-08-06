@@ -39,6 +39,10 @@ app.get(routes.about, (req, res) => {
   res.render('about', { ...globalVars, name: 'O nama' });
 });
 
+app.get(routes.contact, (req, res) => {
+  res.render('contact', { ...globalVars, name: 'Kontakti' });
+});
+
 app.listen(port, () => {
   console.log(`Server is running on ${port}`);
 });

@@ -1,16 +1,16 @@
 @import url('about.css');
 @import url('kemijsko.css');
+@import url('contact.css');
 
-@font-face {
-    font-family: 'mojfont';
-    src: url('mojfont.ttf')  format('truetype')
-  }
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
 
 body{
    /* background-image: url('http://www.guoguiyan.com/data/out/20/69025654-big-wallpapers.png');
 */  background-color: white;
-    font-family: mojfont;
-
+    font-family: 'Montserrat';
+    font-size: 20px;
 }
 
 

@@ -1,0 +1,17 @@
+.fiftififti {
+    width: 1024px;
+   
+    height: 600px;
+
+}
+
+.fiftififti .left1{
+    width: 49%;
+    display: inline-block;
+    
+}
+
+.fiftififti .right1{
+    width: 49%;
+    display: inline-block;
+}

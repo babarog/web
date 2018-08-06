@@ -4,5 +4,6 @@ module.exports = {
   kemijsko: '/kemijsko',
   gallery: '/gallery',
   cjenik: '/cjenik',
-  about: '/about'
+  about: '/about',
+  contact: '/contact'
 };
