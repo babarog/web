@@ -1,0 +1,17 @@
+.sltd {
+    width: 1024px;
+   
+    height: 400px;
+
+}
+
+.sltd .left{
+    width: 33%;
+    display: inline-block;
+    
+}
+
+.sltd .right{
+    width: 66%;
+    display: inline-block;
+}
